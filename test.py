@@ -466,7 +466,7 @@ class PokemonGUI:
         # Switch back to player turn
         self.player_turn = True
         self.update_move_buttons()
-    
+        
     def execute_move(self, attacker: Pokemon, defender: Pokemon, move: Move, is_player: bool):
         damage = self.calculate_damage(attacker, defender, move)
         
